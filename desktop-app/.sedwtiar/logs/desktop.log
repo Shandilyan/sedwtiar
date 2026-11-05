@@ -1,0 +1,17 @@
+2026-11-04 02:21:51,716 INFO MainThread Desktop session started; previous_unclean_exit=False
+2026-11-04 02:21:51,724 CRITICAL MainThread Desktop startup failed
+Traceback (most recent call last):
+  File "C:\Users\ROG\Downloads\SDWTIAR Final\SDWTIAR\desktop-app\app.py", line 1954, in main
+    backend_startup_message = ensure_local_backend()
+                              ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ROG\Downloads\SDWTIAR Final\SDWTIAR\desktop-app\app.py", line 226, in ensure_local_backend
+    with BACKEND_LOG_PATH.open("ab") as backend_log:
+         ^^^^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'BACKEND_LOG_PATH' where it is not associated with a value
+
+2026-11-04 02:22:11,928 INFO MainThread Desktop session started; previous_unclean_exit=False
+2026-11-04 02:22:31,964 ERROR MainThread Local backend did not become ready; see C:\Users\ROG\Downloads\SDWTIAR Final\SDWTIAR\desktop-app\.sedwtiar\logs\backend.log
+2026-11-04 02:54:21,995 INFO MainThread Desktop session started; previous_unclean_exit=True
+2026-11-04 02:54:42,003 ERROR MainThread Local backend did not become ready; see C:\Users\ROG\Downloads\SDWTIAR Final\SDWTIAR\desktop-app\.sedwtiar\logs\backend.log
+2026-11-04 02:55:05,080 INFO MainThread Main window closed normally
+2026-11-04 02:55:05,089 INFO MainThread Desktop event loop ended with exit code 0
